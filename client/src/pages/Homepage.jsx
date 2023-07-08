@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 
-import { Loader, Form, Card } from "../componenets";
+import { Loader, FormField, Card } from "../componenets";
+// import FormField from "../componenets/FormField";
 
 const RenderCards = ({ data, title }) => {
   if (data?.length > 0) {
@@ -28,7 +29,7 @@ const Homepage = () => {
       </div>
 
       <div className="mt-16">
-        <Form />
+        <FormField />
       </div>
 
       <div className="mt-10">
